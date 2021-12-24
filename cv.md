@@ -1,4 +1,4 @@
-# [RS SCHOOL CV](https://rs.school/ "RS SCHOOL")
+# [RS SCHOOL](https://rs.school/ "RS SCHOOL")
 ***
 
 ## Ilya Ivanov
