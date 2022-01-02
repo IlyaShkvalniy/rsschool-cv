@@ -42,6 +42,10 @@ body{
 .nav li{
     list-style-type: none;
     list-style-image: none;
+    transition: opacity 0.2s ease-in;
+}
+.nav li:hover{
+    opacity: 0.5;
 }
 .nav a{
     color: white;
