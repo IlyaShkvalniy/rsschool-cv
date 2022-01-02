@@ -57,6 +57,9 @@ h2{
     height: 250px;
     margin-top: 24px;
 }
+.block *+* {
+    padding-right: 15px;
+}
 .inner-block{
     width: 50%;
 
@@ -97,6 +100,16 @@ h2{
     letter-spacing: 02px;
     padding-bottom: 27px;
 }
+.name::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #161b22;
+    margin: 0 auto;
+    margin-top: 6px;
+    border-radius: 4px;
+}
 .area{
     font-weight: 400;
     font-size: 20px;
@@ -136,6 +149,7 @@ h2{
  p{
     line-height: 160%;
 }
+
 /*============footer=======*/
 .footer{
     
