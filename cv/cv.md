@@ -27,8 +27,8 @@ I'm new to programming and hope to have a great time on this course.
 
 * HTML (Pug)
 * CSS (SASS / SCSS)
-* Git 
 * JavaScript
+* Git
 * Gulp
 * Figma / Photoshop
 
