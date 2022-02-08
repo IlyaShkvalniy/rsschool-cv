@@ -9,7 +9,7 @@
 
 * **Location**: Volgograd, Russia.  
 * **Phone**: +7-909-388-91-64.  
-* **Email**: ilyashkvalnij@gmail.com.  
+* **Email**: pchelinexe@gmail.com.  
 * **Github**: [IlyaShkvalniy](https://github.com/IlyaShkvalniy "gihub")  
 
 ***
