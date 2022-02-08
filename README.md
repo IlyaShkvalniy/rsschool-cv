@@ -1,3 +1,5 @@
+**DEPLOYS**
+
 **[CV MARKDOWN](https://ilyashkvalniy.github.io/rsschool-projects/cv/cv)**
 
 **[VIDEO PLAYER PROJECT](https://ilyashkvalniy.github.io/rsschool-projects/js30-videoplayer/)**
