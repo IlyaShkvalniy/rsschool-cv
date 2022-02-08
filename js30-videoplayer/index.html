@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS30#1.3</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat: 600,700,800,900" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="player">
+                <h1 class="player__title">Video</h1>
+                <div class="player__video-wrapper">
+                    <div class="player__controls-exit-fullscreen">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg fill="#ddd" width="30px" height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+                            <path d="M391 240.9c-.8-6.6-8.9-9.4-13.6-4.7l-43.7 43.7L200 146.3a8.03 8.03 0 0 0-11.3 0l-42.4 42.3a8.03 8.03 0 0 0 0 11.3L280 333.6l-43.9 43.9a8.01 8.01 0 0 0 4.7 13.6L401 410c5.1.6 9.5-3.7 8.9-8.9L391 240.9zm10.1 373.2L240.8 633c-6.6.8-9.4 8.9-4.7 13.6l43.9 43.9L146.3 824a8.03 8.03 0 0 0 0 11.3l42.4 42.3c3.1 3.1 8.2 3.1 11.3 0L333.7 744l43.7 43.7A8.01 8.01 0 0 0 391 783l18.9-160.1c.6-5.1-3.7-9.4-8.8-8.8zm221.8-204.2L783.2 391c6.6-.8 9.4-8.9 4.7-13.6L744 333.6 877.7 200c3.1-3.1 3.1-8.2 0-11.3l-42.4-42.3a8.03 8.03 0 0 0-11.3 0L690.3 279.9l-43.7-43.7a8.01 8.01 0 0 0-13.6 4.7L614.1 401c-.6 5.2 3.7 9.5 8.8 8.9zM744 690.4l43.9-43.9a8.01 8.01 0 0 0-4.7-13.6L623 614c-5.1-.6-9.5 3.7-8.9 8.9L633 783.1c.8 6.6 8.9 9.4 13.6 4.7l43.7-43.7L824 877.7c3.1 3.1 8.2 3.1 11.3 0l42.4-42.3c3.1-3.1 3.1-8.2 0-11.3L744 690.4z"/>
+                        </svg>
+                    </div>
+                    <div class="player__video-button is-play">
+                                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg class="player__play-svg-main" width="80px" fill="#ddd" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 512.055 512.055" style="enable-background:new 0 0 512.055 512.055;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M500.235,236.946L30.901,2.28C16.717-4.813,0.028,5.502,0.028,21.361v469.333c0,15.859,16.689,26.173,30.874,19.081
+                                        l469.333-234.667C515.958,267.247,515.958,244.808,500.235,236.946z M42.694,456.176V55.879l400.297,200.149L42.694,456.176z"/>
+                                </g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            </svg>
+
+                    </div>
+                    <video class="player__video" src="./video/video.mp4"  ></video>
+                </div>
+                <div class="player__progress">
+                    <div class="player__progress-bar"></div>
+                    <div class="player__progress-time">00:00</div>
+                </div>
+                <div class="player__controls">
+                    <button class="player__controls-play-pause"></button>
+                    <button class="player__controls-stop"></button>
+                    <button class="player__controls-mute">
+                        <svg fill="white" class="player__controls-sound-icon-full sound-active" width="15px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1.5C9 1.31989 8.90313 1.1537 8.74641 1.06494C8.58969 0.976173 8.39735 0.978558 8.24288 1.07118L3.36159 3.99804H1.5C0.672491 3.99804 0 4.66798 0 5.49739V9.49479C0 10.3242 0.672491 10.9941 1.5 10.9941H3.36159L8.24288 13.921C8.39735 14.0136 8.58969 14.016 8.74641 13.9272C8.90313 13.8385 9 13.6723 9 13.4922V1.5Z" fill="white"/>
+                            <path d="M14 2V13H15V2H14Z" fill="white"/>
+                            <path d="M12 4V11H13V4H12Z" fill="white"/>
+                            <path d="M10 6V9H11V6H10Z" fill="white"/>
+                        </svg>
+                        <svg class="player__controls-sound-icon-mid" width="15px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1.5C9 1.31989 8.90313 1.1537 8.74641 1.06494C8.58969 0.976173 8.39735 0.978558 8.24288 1.07118L3.36159 3.99804H1.5C0.672491 3.99804 0 4.66798 0 5.49739V9.49479C0 10.3242 0.672491 10.9941 1.5 10.9941H3.36159L8.24288 13.921C8.39735 14.0136 8.58969 14.016 8.74641 13.9272C8.90313 13.8385 9 13.6723 9 13.4922V1.5Z" fill="white"/>
+                            <path d="M12 4V11H13V4H12Z" fill="white"/>
+                            <path d="M10 6V9H11V6H10Z" fill="white"/>
+                        </svg>
+                        <svg class="player__controls-sound-icon-low" width="15px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1.5C9 1.31989 8.90313 1.1537 8.74641 1.06494C8.58969 0.976173 8.39735 0.978558 8.24288 1.07118L3.36159 3.99804H1.5C0.672491 3.99804 0 4.66798 0 5.49739V9.49479C0 10.3242 0.672491 10.9941 1.5 10.9941H3.36159L8.24288 13.921C8.39735 14.0136 8.58969 14.016 8.74641 13.9272C8.90313 13.8385 9 13.6723 9 13.4922V1.5Z" fill="white"/>
+                            <path d="M10 6V9H11V6H10Z" fill="white"/>
+                        </svg>
+                        <svg class="player__controls-sound-icon-mute" width="15px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1.5C9 1.31989 8.90313 1.1537 8.74641 1.06494C8.58969 0.976173 8.39735 0.978558 8.24288 1.07118L3.36159 3.99804H1.5C0.672491 3.99804 0 4.66798 0 5.49739V9.49479C0 10.3242 0.672491 10.9941 1.5 10.9941H3.36159L8.24288 13.921C8.39735 14.0136 8.58969 14.016 8.74641 13.9272C8.90313 13.8385 9 13.6723 9 13.4922V1.5Z" fill="white"/>
+                    
+                        </svg>
+                             
+                    </button>
+                    <div class="player__controls-volume-wrapper">
+                        <div class="player__volume-progress"></div>
+                        <input type="range" min="0" max="1" value="1" step="0.01"  class="player__controls-volume">
+                    </div>
+                    <div class="player__controls-volume-percent">100%</div>
+                    <div class="player__time">00:00 /</div>
+                    <div class="player__fulltime">00:00</div>
+                    <div class="player__controls-playback-speed">Speed: 1</div>
+                    <div class="player__controls-playback-rate-wrapper">
+                        <div class="player__playback-progres"></div>
+                        <input type="range" min="0.25" max="2.75" value="1" step="0.25"  class="player__controls-playback-rate"> 
+                    </div>
+                    <div class="player__controls-fullscreen">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg fill="#ddd" width="30px" height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+                            <path d="M290 236.4l43.9-43.9a8.01 8.01 0 0 0-4.7-13.6L169 160c-5.1-.6-9.5 3.7-8.9 8.9L179 329.1c.8 6.6 8.9 9.4 13.6 4.7l43.7-43.7L370 423.7c3.1 3.1 8.2 3.1 11.3 0l42.4-42.3c3.1-3.1 3.1-8.2 0-11.3L290 236.4zm352.7 187.3c3.1 3.1 8.2 3.1 11.3 0l133.7-133.6 43.7 43.7a8.01 8.01 0 0 0 13.6-4.7L863.9 169c.6-5.1-3.7-9.5-8.9-8.9L694.8 179c-6.6.8-9.4 8.9-4.7 13.6l43.9 43.9L600.3 370a8.03 8.03 0 0 0 0 11.3l42.4 42.4zM845 694.9c-.8-6.6-8.9-9.4-13.6-4.7l-43.7 43.7L654 600.3a8.03 8.03 0 0 0-11.3 0l-42.4 42.3a8.03 8.03 0 0 0 0 11.3L734 787.6l-43.9 43.9a8.01 8.01 0 0 0 4.7 13.6L855 864c5.1.6 9.5-3.7 8.9-8.9L845 694.9zm-463.7-94.6a8.03 8.03 0 0 0-11.3 0L236.3 733.9l-43.7-43.7a8.01 8.01 0 0 0-13.6 4.7L160.1 855c-.6 5.1 3.7 9.5 8.9 8.9L329.2 845c6.6-.8 9.4-8.9 4.7-13.6L290 787.6 423.7 654c3.1-3.1 3.1-8.2 0-11.3l-42.4-42.4z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="footer__content-wrapper">
+                    <div class="footer__content">
+                        <div class="footer__year">©2022</div>
+                        <div class="footer__github">
+                            <a href="https://github.com/IlyaShkvalniy" class="footer__link">
+                                <img class="footer__img" src="./icons/giticon.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__rss">
+                            <a href="https://rs.school/js-stage0/" class="footer__link">
+                                <img class="footer__img" src="./icons/rss.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
