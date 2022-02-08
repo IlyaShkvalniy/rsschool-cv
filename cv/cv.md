@@ -25,9 +25,11 @@ I'm new to programming and hope to have a great time on this course.
 
 ***
 
-* HTML (Basics)
-* CSS (Basics)
-* Git (Basics)
+* HTML (Pug)
+* CSS (SASS / SCSS)
+* Git 
+* JavaScript
+* Gulp
 
 ***
 
