@@ -1,4 +1,4 @@
-**[CV MARKDOWN](https://github.com/IlyaShkvalniy/rsschool-projects/blob/gh-pages/cv/cv.md)**
+**[CV MARKDOWN](https://ilyashkvalniy.github.io/rsschool-projects/cv/cv)**
 
 **[VIDE PLAYER PROJECT](https://ilyashkvalniy.github.io/rsschool-projects/js30-videoplayer/)**
 
