@@ -1,14 +1,14 @@
 # [RS SCHOOL](https://rs.school/ "RS SCHOOL")
 ***
 
-## Ilya Ivanov
+## Ilya Pchelin
 ***
 
 ### Contacts
 ***
 
 * **Location**: Volgograd, Russia.  
-* **Phone**: +7-909-388-99-64.  
+* **Phone**: +7-909-388-91-64.  
 * **Email**: ilyashkvalnij@gmail.com.  
 * **Github**: [IlyaShkvalniy](https://github.com/IlyaShkvalniy "gihub")  
 
@@ -54,4 +54,4 @@ int main()
 
 ### English
 ***
- **A1. Still lerning**
+ **A2. Still lerning**
