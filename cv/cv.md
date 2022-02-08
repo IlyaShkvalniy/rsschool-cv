@@ -30,6 +30,7 @@ I'm new to programming and hope to have a great time on this course.
 * Git 
 * JavaScript
 * Gulp
+* Figma / Photoshop
 
 ***
 
