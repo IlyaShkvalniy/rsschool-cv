@@ -1,6 +1,6 @@
 **[CV MARKDOWN](https://ilyashkvalniy.github.io/rsschool-projects/cv/cv)**
 
-**[VIDE PLAYER PROJECT](https://ilyashkvalniy.github.io/rsschool-projects/js30-videoplayer/)**
+**[VIDEO PLAYER PROJECT](https://ilyashkvalniy.github.io/rsschool-projects/js30-videoplayer/)**
 
 **[MOVIE SEARCH PROJECT](https://ilyashkvalniy.github.io/rsschool-projects/movie-app/)**
 
