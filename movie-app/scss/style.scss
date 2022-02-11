@@ -10,7 +10,7 @@ html, body {
     height: 100%;
     color: #fff;
     background-color: #0d1117;
-    // font-family: 'Montserrat';
+    font-family: 'Montserrat';
     scroll-behavior: smooth;
 }
 
@@ -49,6 +49,11 @@ button {
     &__logo{
         width: 100px;
         height: 70px;
+        @media (max-width: 400px) {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+        }
     }
     &__img{ 
         width: 100%;
@@ -146,7 +151,17 @@ button {
         transition: transform 0.3s ease;
         max-height: 100%;
         overflow-y: auto;
+        line-height: 30px;
         
+    }
+    &__element-overtitle { 
+        font-weight: 600;
+        font-size: 20px;
+    }
+    &__element-votes { 
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 5px;
     }
     &__element-about{ 
     }

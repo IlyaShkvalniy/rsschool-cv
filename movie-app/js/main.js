@@ -45,6 +45,9 @@ const createEl = (obj) => {
     const infoTitle = createTag('h3', 'main__element-title')
     const infoRating = createTag('span', 'main__element-rating')
     const overviewInfo = createTag ('p', 'main__element-about')
+    const votes = createTag('div', 'main__element-votes')
+    const overviewTitle = createTag('div', 'main__element-overtitle')
+
     
     appendElement(mainMain, divWrapper)
     appendElement(divWrapper,mainImg)
@@ -52,10 +55,14 @@ const createEl = (obj) => {
     appendElement(divWrapper ,divOverview)     
     appendElement( divInfo ,infoTitle)
     appendElement(divInfo ,infoRating)
+    appendElement(divOverview, votes)
+    appendElement(divOverview, overviewTitle)
     appendElement( divOverview ,overviewInfo)
 
-    if ( obj.poster_path === null){mainImg.src = ''}
+    if ( obj.poster_path === null){mainImg.src = './icons/not-found.jpg'}
     else{mainImg.src = `https://image.tmdb.org/t/p/w1280${obj.poster_path}`}
+    votes.textContent = `Rating: ${obj.vote_average} | ${obj.vote_count} votes`
+    overviewTitle.textContent = 'Overview'
     infoTitle.textContent = `${obj.original_title}`
     infoRating.textContent = `${obj.vote_average}`
     infoRating.classList.add(getColor(obj.vote_average))
@@ -76,6 +83,7 @@ const submit = el => {
 async function getData() {
     const res = await fetch(url);
     const data = await res.json();
+    console.log(data)
     showData(data)
 }
 
